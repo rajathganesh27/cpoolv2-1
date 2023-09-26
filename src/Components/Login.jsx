@@ -7,14 +7,14 @@ function Login()
     const navigate=useNavigate();
     function handleClick()
     {
-        navigate("/Selection");
+        navigate("/selection");
     }
 
     return(
-        <div className="mainbg bg-[#cdf0d5] h-screen py-36">
+        <div className="mainbg bg-gradient-to-br from-[#fdfefe] to-[#010710] h-screen py-28">
                 <div className="container mx-auto ">
                     <div className="bg-white rounded-xl w-2/3 mx-auto shadow-sm overflow-hidden flex my-auto">
-                        <div className="left w-1/2 bg-[#abe6b9] text-white px-10 py-8 flex flex-col items-center justify-center">
+                        <div className="left w-1/2 bg-black text-white px-10 py-8 flex flex-col items-center justify-center">
                             <h1 className="font-extrabold mb-6 text-xl mx-auto">
                                 WELCOME
                             </h1>
@@ -39,11 +39,16 @@ function Login()
 
                                     <button className="signinbtn font-bold my-4 py-4 px-4 bg-black text-white text-xl rounded-full w-40 mx-auto shadow-lg hover:bg-gray-800">SIGN IN</button>
 
+
+                                    <p className="font-bold text-xl mx-auto">OR</p>
+                                    <button className="flex flex-row text-base rounded-lg bg-gray-200 px-28 py-3 my-2 font-semibold hover:bg-gray-300"><span><img class="h-7 w-7 rounded-full" src="https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg" alt="google"></img></span>Continue with Google</button>
                                 </div>
                             </form>
 
 
                         </div>
+
+                        
 
                         
                     </div>    

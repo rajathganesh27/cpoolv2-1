@@ -11,10 +11,10 @@ function Login()
     }
 
     return(
-        <div className="mainbg bg-gradient-to-br from-[#fdfefe] to-[#010710] h-screen py-36">
+        <div className="mainbg bg-[#cdf0d5] h-screen py-36">
                 <div className="container mx-auto ">
                     <div className="bg-white rounded-xl w-2/3 mx-auto shadow-sm overflow-hidden flex my-auto">
-                        <div className="left w-1/2 bg-black text-white px-10 py-8 flex flex-col items-center justify-center">
+                        <div className="left w-1/2 bg-[#abe6b9] text-white px-10 py-8 flex flex-col items-center justify-center">
                             <h1 className="font-extrabold mb-6 text-xl mx-auto">
                                 WELCOME
                             </h1>

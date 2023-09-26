@@ -10,7 +10,7 @@ function DriverSignup()
     }
 
     return(
-        <div className="mainbg bg-gradient-to-br from-[#fdfefe] to-[#010710] h-screen py-24">
+        <div className="mainbg bg-[#e6f8ea] h-screen py-24">
                 <div className="container mx-auto ">
                     <div className="bg-white rounded-xl w-2/3 mx-auto shadow-sm overflow-hidden flex my-auto">
                         <div className="left w-1/4 bg-black text-white px-6 py-8 flex flex-col items-center justify-center">

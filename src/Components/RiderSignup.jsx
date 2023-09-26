@@ -10,12 +10,12 @@ function RiderSignup()
     }
 
     return(
-        <div className="mainbg bg-gradient-to-br from-[#fdfefe] to-[#010710] h-screen py-24">
+        <div className="mainbg bg-gradient-to-br from-[#fdfefe] to-[#010710] h-screen py-20">
                 <div className="container mx-auto ">
                     <div className="bg-white rounded-xl w-2/3 mx-auto shadow-sm overflow-hidden flex my-auto">
                         <div className="left w-1/4 bg-black text-white px-6 py-8 flex flex-col items-center justify-center">
                             <h1 className="font-extrabold mb-6 text-xl mx-auto">
-                                REGISTER
+                                REGISTER RIDER
                             </h1>
                         
                             <div className="mx-auto">
@@ -26,7 +26,10 @@ function RiderSignup()
                         </div>
 
                         <div className="rightbox w-3/4 bg-white px-10 py-4">
-                            <h1 className="font-extrabold mb-4 text-2xl">ENTER YOUR DETAILS</h1>
+                            <div className="flex mb-5">
+                                <h1 className="font-extrabold mb-4 text-2xl">ENTER YOUR DETAILS</h1>
+                                <a href="#"><span><img src="https://pbs.twimg.com/profile_images/1605297940242669568/q8-vPggS_400x400.jpg" className="w-10 h-10 ml-96 border"></img></span></a>
+                            </div>
                             <form action="#">
                                 <div className="namebox flex">
                                     
